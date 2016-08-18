@@ -1,0 +1,41 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-core": "6.6.5",
+    "babel-eslint": "5.0.0",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-react": "6.5.0",
+    "core-js": "1.1.4",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "node-sass": "^3.8.0",
+    "react": "15.2.0",
+    "react-dom": "15.2.0",
+    "reflex-grid": "^1.1.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "watch": "0.16.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "1.11.0"
+  },
+  "scripts": {
+    "react-dev": "./node_modules/.bin/webpack --config=webpack.dev.config.js",
+    "react-build": "./node_modules/.bin/webpack --config=webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmoojunk/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmoojunk/website/issues"
+  },
+  "homepage": "https://github.com/dmoojunk/website#readme"
+}
